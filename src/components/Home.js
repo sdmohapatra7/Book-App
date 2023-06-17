@@ -7,7 +7,7 @@ export default function Home() {
     useEffect(()=>{
         setBooksData(Products);
     },[]);
-    console.log("data", booksData);
+    // console.log("data", booksData);
     return (
         <div className='home'>
             {booksData && booksData.map((item)=>{

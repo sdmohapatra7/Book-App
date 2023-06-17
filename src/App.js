@@ -10,7 +10,7 @@ function App() {
   const [cart, setCart] = useState([]);
   return (
     <div className='App'>
-      <CartContext.Provider value={cart}>
+      <CartContext.Provider value={{cart,setCart}}>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />

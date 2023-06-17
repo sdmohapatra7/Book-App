@@ -18,10 +18,12 @@
 .nav{
   display: flex;
   align-content: space-around;
-  background-color: lightblue;
+  background-color: rgb(230, 173, 227);
   font-size: 20px;
-  padding: 20px;
-}
+  padding: 15px;
+  /* position: fixed;
+  width: 100%;*/
+} 
 h4{
   margin: 0 10px;
 }
@@ -58,6 +60,7 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  /* margin-top: 80px; */
 }
 .product:hover {
   transform: scale(1.1);
